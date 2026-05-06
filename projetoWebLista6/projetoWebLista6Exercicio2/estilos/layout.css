@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    width: 5000px;
+    height: 100%;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    text-align: center;
+    flex-direction: row;
+    max-height: 10px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 380px;
+    width: 75%;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+figure{
+    display: flex;
+}
+
+.logoNavBar{
+    width: 150px;
+    height: 150px;
+}
+
+main{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+section{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    
+}
+
+article{
+    width: 60%;
+}
+
+.kratos{
+    width: 600px;
+    height: 600px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+
+}
+
+.studio{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.certified{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 60px;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+}
+
+.contact{
+    display: flex;
+    width: 1800px;
+    height: 100%;
+    flex-direction: column;
+}
