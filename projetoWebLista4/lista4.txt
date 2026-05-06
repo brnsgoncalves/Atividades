@@ -1,0 +1,52 @@
+1- Utilize o atributo HTML correto e CSS para definir a cor do parágrafo como "azul".
+<p style="color: blue;">This is a paragraph.</p>
+
+2- Use CSS para definir a fonte do parágrafo como "courier".
+<p style="font-family: courier;">This is a paragraph.</p>
+
+3- Empregue CSS para centralizar o parágrafo.
+<p style="text-align: center;">This is a paragraph.</p>
+
+4- Utilize CSS para definir o tamanho do texto para 50 pixels.
+<p style="font-size: 50px;">This is a paragraph.</p>
+
+5- Defina a cor de fundo do documento para amarelo, utilizando a propriedade CSS.
+<html>
+
+<body style="background-color:#ffff00;">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+
+</html>
+
+6- Centralize o documento em CSS.
+<html>
+
+<body text="text-align"center>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+
+</html>
+
+7- Use CSS para criar uma borda amarela, com 1 pixel de espessura em todos os
+parágrafos.
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            border: 1px solid #ffff00;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+</body>
+
+</html>
