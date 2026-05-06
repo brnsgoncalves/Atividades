@@ -1,0 +1,124 @@
+<!-- Lista 1 
+1- Quais as tags principais da estrutura HTML5? Explique cada uma. 
+
+Resposta:  
+    <html> - É a raiz de todo documento, onde tudo deve ser escrito dentro dele. 
+    <head> - Aqui fica as informações técnicas do HTML que naõ mostram diretamente para o usuário. 
+    <body> - O corpo da página, onde são inseridos textos, imagens, botões e vídeos.
+    <DOCTYPE html> - tag que indica ao navergador o uso de um HTML 5 atualizado 
+
+2- A HTML5, simplificou muito o trabalho do programador frontend, com a adição de 
+novas tags semânticas e remoção de outras. Cite e explique pelo menos seis (6) tags 
+removidas ou obsoletas na linguagem HTML5.
+
+Resposta:
+    <font> -> utilizada para alteração de cor, tamanho e foi subsituida por font-family.
+    <center> -> utilizada para centralizar, mas foi substituida por text-align ou margin.
+    <big> -> aumento do valor do  texto
+    <frame> -> dividia a janela do navegador em sessões independentes, substituida hoje por main / header, etc. 
+    <dir> -> Usada para criar listas de diretórios, substituida hoje com a teg <ul>
+    <basefont> -> denifição de cor, fonte e tamanho pro texto do documento, substituida pelo "Style" no Body.
+
+3- Sobre a estrutura básica do HTML 5, analisar os itens abaixo: 
+I. head: primeira linha de código do documento antes da tag HTML.  
+II. doctype: define uma nova seção genérica no documento.  
+III. body: define o corpo (conteúdo) da página. 
+Está(ão) CORRETO(S): 
+a) Somente o item I. 
+b) Somente o item II. 
+c) Somente o item III. 
+d) Somente os itens I e II. 
+e) Somente os itens II e III.
+
+Resposta: C - Somente o item 3
+
+4- Exemplifique a utilização de citação de um livro e definição de um termo técnico em 
+um parágrafo. 
+
+Resposta: -->
+
+<main>
+        <article>
+            <h1>Citações de livros</h1>
+            <blockquote>"Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria."</blockquote> <!--blockquote - Citações Longas-->
+            <cite>Memórias Póstumas de Brás Cubas</cite> <!--Cite para referência do título da óbra-->
+            <q>O segredo das pessoas é que elas não tem segredos.</q> <!--Citações curtas-->
+        </article>
+    </main>
+
+<!--
+
+5- Autônomo na área de desenvolvimento web, você foi contratado para desenvolver 
+um blog a um cliente, que no momento será chamado de Fulano. Crie um projeto 
+de blog que contenha os seguintes requisitos: 
+a) Um Logo e Favicon, criados exclusivamente para o site, seguindo o tema 
+proposto pelo cliente. 
+b) Uma imagem com os atributos title e alt; 
+c) Uma lista ordenada, com o indicador em números romanos (I, II, III ...);  
+d)  A estrutura de acordo com a ilustração abaixo: 
+
+Resposta: Exercício em outro arquivo
+
+6 - Desenvolva a página curriculo.html e salve na pasta páginas, semelhante a página 
+exibida na figura 1.
+
+Resposta: Exercício em outro arquivo
+
+7 - Nos exemplos abaixo identifique as tags, atributos e valores. 
+a) <img src="logo.jpg" alt="Logomarca do blog"> 
+b) <meta charset="UTF-8"> 
+c) <hr width="100%"> 
+d) <link rel="short icon" href="imagens/logoFavicon.png"> 
+e) <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Resposta: 
+a)  Img = TAG
+    src e alt = Atributos
+    "foto.jpg" e "perfil do idoso" = Valores
+
+b)  meta = Tag
+    charset = atributo
+    UTF-8 = Valor
+
+c)  hr = tag
+    width = atributo
+    100% = Valor
+
+d)  Link = tag
+    rel e href = atributos
+    "short icon" e "imagens/logofavicon.png" = Valores
+
+e)  meta = tag
+    name e content = atributo
+    "viewport" e "width=devidewidth, initial-scale=1.0" = Valores
+
+8 - Quais tags de formatação de texto foram desaconselhadas no HTML5 devido à falta 
+de semântica, e quais são as alternativas recomendadas que devem ser utilizadas 
+para garantir uma estrutura mais significativa e acessível? 
+
+Resposta: 
+<b> (bold)
+    Substituida pela <strong>
+<i> (italic)
+    Substituida pela <em>
+<u> (underline)
+    Substituida pela text-decoration: underline;
+<big> / <small> (para formatação)
+    Substituida pela front-size
+
+9 - Qual a importância das tags semânticas no HTML5 e como elas contribuem para 
+uma web mais acessível e otimizada para mecanismos de busca (SEO - Otimização 
+para Motores de Busca). 
+
+Resposta: A semântica traz sentido e organização para estrutura do HTML5 e de um modo geral, facilita a leitura dos motores de busca, na leitura do código. 
+
+10 - Quais atributos podem ser utilizados em conjunto com a tag <img>, além do 
+atributo src, para melhorar a acessibilidade, a responsividade e o desempenho de 
+uma página web? Explique o papel de cada um desses atributos. 
+
+Resposta: alt = Fornece uma descrição textual da imagem
+          title = exibe um pequeno balão de texto quanto passa o mouse sobre a imagem (informando um título)
+          width e height = Definem as dimenções da imagem em pixel (largura e altura)
+
+-->
+
