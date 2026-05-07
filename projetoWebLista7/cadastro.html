@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Cadastro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      background: #f0f0f0;
+      padding: 30px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 700px;
+      background: #fff;
+    }
+    td {
+      padding: 5px 8px;
+      border: 1px solid #ccc;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 2px 4px;
+      box-sizing: border-box;
+      border: 1px solid #aaa;
+    }
+    .header-light {
+      background-color: lightblue;
+      color: black;
+      font-weight: bold;
+    }
+    .header-dark {
+      background-color: #003366;
+      color: white;
+    }
+    .label-cell {
+      color: #0000aa;
+      font-weight: bold;
+      white-space: nowrap;
+      width: 110px;
+      vertical-align: middle;
+    }
+    .no-border td {
+      border: none;
+      padding: 4px 8px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 4px 14px;
+      margin-right: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="3" class="header-light">Não é associado? Faça seu cadastro</td>
+    <td colspan="2" class="header-dark">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Nome</td>
+    <td colspan="4"><input type="text" name="nome"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Nome<br>Completo</td>
+    <td colspan="4"><input type="text" name="nome_completo"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">CPF</td>
+    <td colspan="4"><input type="text" name="cpf"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">E-mail</td>
+    <td colspan="4"><input type="email" name="email"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">WebSite</td>
+    <td colspan="4"><input type="url" name="website"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Endereço</td>
+    <td colspan="4"><input type="text" name="endereco"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Bairro</td>
+    <td><input type="text" name="bairro"></td>
+    <td class="label-cell">Cidade</td>
+    <td colspan="2"><input type="text" name="cidade"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Cep</td>
+    <td><input type="text" name="cep"></td>
+    <td class="label-cell">UF</td>
+    <td colspan="2">
+      <select name="uf">
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="AP">AP</option>
+        <option value="AM">AM</option>
+        <option value="BA" selected>BA</option>
+        <option value="CE">CE</option>
+        <option value="DF">DF</option>
+        <option value="ES">ES</option>
+        <option value="GO">GO</option>
+        <option value="MA">MA</option>
+        <option value="MT">MT</option>
+        <option value="MS">MS</option>
+        <option value="MG">MG</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PR">PR</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>
+        <option value="RS">RS</option>
+        <option value="RO">RO</option>
+        <option value="RR">RR</option>
+        <option value="SC">SC</option>
+        <option value="SP">SP</option>
+        <option value="SE">SE</option>
+        <option value="TO">TO</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Telefone</td>
+    <td><input type="text" name="telefone"></td>
+    <td class="label-cell">Fax</td>
+    <td colspan="2"><input type="text" name="fax"></td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Data<br>Nascimento</td>
+    <td><input type="date" name="data_nascimento"></td>
+    <td class="label-cell">Sexo</td>
+    <td colspan="2">
+      <input type="radio" name="sexo" value="M"> M
+      <input type="radio" name="sexo" value="F"> F
+    </td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Celular</td>
+    <td><input type="text" name="celular"></td>
+    <td class="label-cell">Est.Civil</td>
+    <td colspan="2">
+      <select name="estado_civil">
+        <option value="solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="viuvo">Viúvo</option>
+        <option value="divorciado">Divorciado</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="label-cell">Login</td>
+    <td><input type="text" name="login"></td>
+    <td class="label-cell">Senha</td>
+    <td colspan="2"><input type="password" name="senha"></td>
+  </tr>
+
+  <tr class="no-border">
+    <td colspan="5">Deseja receber informações sobre os seguintes assuntos abaixo:</td>
+  </tr>
+  <tr class="no-border">
+    <td colspan="5">
+      <input type="checkbox" name="int" value="tecnologia"> Tecnologia
+      <input type="checkbox" name="int" value="esportes"> Esportes
+      <input type="checkbox" name="int" value="automoveis"> Automóveis
+      <input type="checkbox" name="int" value="culinaria"> Culinária
+      <input type="checkbox" name="int" value="politica"> Política
+      <input type="checkbox" name="int" value="policial"> Policial
+      <input type="checkbox" name="int" value="tempo"> Tempo
+    </td>
+  </tr>
+  <tr class="no-border">
+    <td colspan="5">
+      <input type="checkbox" name="int" value="cultura"> Cultura
+      <input type="checkbox" name="int" value="economia"> Economia
+      <input type="checkbox" name="int" value="jogos"> Jogos
+      <input type="checkbox" name="int" value="educacao"> Educação
+      <input type="checkbox" name="int" value="viagem"> Viagem
+      <input type="checkbox" name="int" value="empregos"> Empregos
+      <input type="checkbox" name="int" value="moda"> Moda e Estilo
+    </td>
+  </tr>
+  <tr class="no-border">
+    <td colspan="5">
+      <input type="checkbox" name="regras" value="aceito"> Li as regras de cadastro e autorizo a criação do usuário
+    </td>
+  </tr>
+
+  <tr class="no-border">
+    <td colspan="5">
+      <input type="submit" value="Confirmar">
+      <input type="reset" value="Retornar">
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

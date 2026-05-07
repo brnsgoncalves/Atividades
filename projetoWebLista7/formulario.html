@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Comentário</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f5f5f5;
+      padding: 40px 20px;
+    }
+    section {
+      background: #fff;
+      padding: 30px 40px;
+      width: 500px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 4px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+    }
+    textarea {
+      height: 150px;
+      resize: vertical;
+    }
+    p.obs {
+      font-style: italic;
+      color: #333;
+      margin-top: 12px;
+      font-size: 0.9em;
+    }
+    input[type="submit"] {
+      margin-top: 14px;
+      padding: 5px 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>Deixe um comentário</h2>
+
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="website">Website:</label>
+      <input type="url" id="website" name="website">
+
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario"></textarea>
+
+      <p class="obs">Observação: Seu comentário será publicado após passar pelo moderador</p>
+
+      <input type="submit" value="Enviar Comentário">
+    </form>
+  </section>
+</body>
+</html>
